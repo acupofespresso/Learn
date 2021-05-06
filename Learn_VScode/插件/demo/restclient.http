@@ -1,0 +1,65 @@
+POST https://app.mokahr.com/api/outer/ats-jc-apply/website/job HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Content-Length: 78
+Content-Type: application/json
+Cookie: acw_tc=2760828716197534874897885e8e795c7a391304e6aa20747310c947b6a0a0; locale=zh-CN; moka-apply=X970AMlGvYyFhNBMNl2Byx1VU9ALKLcrE8kehZb7etc%3D; connect.sid=s%3ArhGTRbtN2lwCC6YG4glfpkkuvYKd4eca.E8S2VRJo1sufZpQXmVQ5SYY4doYnv%2FQqcnrZ8scrf%2Fg
+Host: app.mokahr.com
+moka-tracing: {"op_no":"553fec96-453b-4c53-8006-3428dcfa85f1","locale":"zh_CN","time_zone":"GMT+08:00","source":"apply-web","org_id":"zhihu"}
+Origin: https://app.mokahr.com
+Referer: https://app.mokahr.com/apply/zhihu/3819
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+use-http-status: 0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+
+
+{
+    "orgId":"zhihu",
+    "jobId":"eac28920-4a31-4362-878a-66e4b1f01aa4",
+    "siteId":3819
+}
+###
+POST https://music.163.com/weapi/v1/play/record?csrf_token=a49aaaeeeec4f50a6bad1c6e9eefde5e HTTP/1.1
+Host: music.163.com
+Connection: keep-alive
+Content-Length: 528
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://music.163.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://music.163.com/user/home?id=277366728
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID-WYYY=ooDR7WERnS8iRgkefsoiZsZep0grCHS5oHKaT24hJgUSD3gjug4uPPolqQezX8er8VOHHIuRyk4v3JgIFf%2F%5CeU6fTubNr63F8zO24f0NYkZIYsV1s%2F2PpnDZ65Ws71bA4Ru9NYsMmZfyYrkG9V0%2F%2Fbb8DxT%2BOm4mGNhSGhPhXwDIVh%5CA%3A1620268738370; _iuqxldmzr_=32; _ntes_nnid=73b4af948bfd2e7537c78ba6dced9317,1620266938460; _ntes_nuid=73b4af948bfd2e7537c78ba6dced9317; NMTID=00OXb8f_dIvKZjv_0GRqs3xX35FymQAAAF5P29jZA; WEVNSM=1.0.0; WM_NI=XLex69gnvhwfNlMJMrDh5JOSTSKIaLxC2OtknhCR0McH%2BBsLSjIoK0%2B6DuAOUFsyfdBQsopXmMxl5B6LQNOegMxeorcBtRRGFvDyk7wKqwDDlMp2wC3Uu8Z7CC1J%2BlHdbTM%3D; WM_NIKE=9ca17ae2e6ffcda170e2e6eea7ee3df2bc9891e154aceb8ea3d84b879f9ebbf86df3e9f982cf7b90ea8e98b42af0fea7c3b92a9c94ab99b533a5b2ba89f66e8eb483abd07a88b8fbabce59988d85aae448bc9dfeb0f761aeb88db3b347a198e5a3f24891b68790ca3ce9ea8c96c445979abd9ae570828fbd90f354af93b88db84af6949fafce6fa593b886ee7aa19ebcb3d14d86aa8c9aea3db595bf98c750b093c0d3f649f18bbbd9d93d819dffabaa688cbcaeb5d037e2a3; WM_TID=%2Bomcw718NjdBFQURREd%2Bxxv%2FKfqbqQkh; MUSIC_U=0ebdc3f5f8ecd37362748ea418e4beb5e82562bbf8998e104bffb73a51efdc63f474c76e44c28628de39c620ce8469a8; __remember_me=true; __csrf=a49aaaeeeec4f50a6bad1c6e9eefde5e; ntes_kaola_ad=1
+
+params=jSCILkLM%2FjSDiZnDiivpXgkvjCQWCcxmwTQwlc1M1G%2FA4RIcGwP7m07ALcjEFybMYcHpXa0a1N0d8pHuyJZVlV%2FgnY2I%2FFG4TZqvkC8GAbQlxxJuGmEi4fk6X4ZezV8WR%2FBDXIBQ%2FMJkcxyP4GFfpVB8bAAaSlM59X1IFiooe33PLUhMEjtrCr7M6flUpPUHehtScjUHUmMJVa%2BG8F84ULhlpKTAn%2FFsal5vrqeSFTk%3D&encSecKey=d2397a84b67ebe765ad95624930ddd3b7c1b19870a071c36b23954ad6a9312fde1ca562edb0620aa83a1f3553b1a7c4665316002ac1ffdc948942af35c960fc92b2aa968aba5c63e537c27129e5306a1c79ee49bf123f88ccc8fa00c9bd4bb23c6c9401be3326d921f4f0aa7b6d87a0866f375e3c9c778bd63433df7927ff1c2
+
+###
+GET http://127.0.0.1:8000/booktest/index/ HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: max-age=0
+Connection: keep-alive
+Cookie: user=123; sessionid=p8nbt6wpcm9a2k4qy084cspr6uo8pdkb
+Host: 127.0.0.1:8000
+Referer: http://127.0.0.1:8000/booktest/login/
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
