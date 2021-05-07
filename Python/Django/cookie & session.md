@@ -2,7 +2,7 @@
 * 存储在客户端
 1. 字典类型存储    
 2. cookie 可指定过期时间,默认为关闭浏览器后失效
-3. 
+
 ## 设置 Cookie
 * 需要一个 HTTPResponse 类的对象或者是它子类的对象
 * HTTPResponseRedirect, JsonResponse
@@ -14,14 +14,14 @@ def set_cookie(request):
     return response
 ```
 ### 设置过期时效
-```
+```python
 # 通过秒数,设置7天时效
 response.set_cookie('num',1,max_age=7*24*3600)
 # 通过当前时间,设置7天时效
 response.set_cookie('num', 1, expires=datetime.now() + datetime.timedelta(days=7))
 ```
 ### 实例
-```
+```python
 def login_Ajax(request):
     context = {
         'res':0,
@@ -40,7 +40,7 @@ def login_Ajax(request):
     return JsonResponse(context)
 ```
 html
-```
+```html
 <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
   <script>
       $(function () {
@@ -83,7 +83,7 @@ html
 ```
 
 # session
-* 存储在服务器
+session 存储在服务器
 1. 字典类型存储
 2. 依赖于 cookie,唯一标识码保存在 sessionid cookie中
 3. 可设置失效时间,默认两周后失效
